@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "empowtutorial:block/tutorial_block"
+    }
+  }
+}

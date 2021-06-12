@@ -1,0 +1,11 @@
+{
+	"item.empowtutorial.tutorial_item": "Empowder",
+	"block.empowtutorial.tutorial_block": "Tutorial Stone",
+	"block.empowtutorial.unobtainium_ore": "Unobtainium Ore",
+	"item.empowtutorial.obtainium_nugget": "Obtainium Nugget",
+	"item.empowtutorial.obtainium_ingot": "Obtainium Ingot",
+	"block.empowtutorial.obtainium_block": "Obtainium Block",
+	"item.empowtutorial.unobtainium_shard": "Unobtainium Shard",
+	"item.empowtutorial.tutorial_sword": "Blazing Sword",
+	"tooltip.special_item.hold_shift": "Hold \u0047eShift \u00477 for More Information"
+}

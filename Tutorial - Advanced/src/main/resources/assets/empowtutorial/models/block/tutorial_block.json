@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "empowtutorial:blocks/tutorial_block_top",
+    "side": "empowtutorial:blocks/tutorial_block"
+  }
+}

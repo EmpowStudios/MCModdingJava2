@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "empowtutorial:unobtainium_shard"
+  },
+  "result": "empowtutorial:obtainium_nugget",
+  "experience": 1.5,
+  "cookingtime": 3600
+}

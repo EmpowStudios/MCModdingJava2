@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "empowtutorial:obtainium_ingot"
+    }
+  ],
+  "result": {
+    "item": "empowtutorial:obtainium_nugget",
+    "count": 9
+  }
+}

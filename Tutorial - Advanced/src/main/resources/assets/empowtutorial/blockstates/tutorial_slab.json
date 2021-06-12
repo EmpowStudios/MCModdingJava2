@@ -1,0 +1,7 @@
+{
+  "variants": {
+      "type=bottom": {"model":"empowtutorial:block/tutorial_slab"},
+      "type=top": {"model":"empowtutorial:block/tutorial_slab_top"},
+      "type=double":{"model":"empowtutorial:block/tutorial_block"}
+  }
+}

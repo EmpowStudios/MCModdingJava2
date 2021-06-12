@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	"###",
+	"###",
+	"###"
+	],
+	"key": {
+		"#": {
+			"item": "empowtutorial:obtainium_nugget"
+		}
+	},
+	"result": {
+		"item": "empowtutorial:obtainium_ingot",
+		"count": 1
+	}
+}

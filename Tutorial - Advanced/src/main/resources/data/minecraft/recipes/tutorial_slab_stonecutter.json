@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "empowtutorial:tutorial_block"
+  },
+  "result": "empowtutorial:tutorial_slab",
+  "count": 2
+}

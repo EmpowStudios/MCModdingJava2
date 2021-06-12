@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	"#",
+	"#",
+	"/"
+	],
+	"key": {
+		"#": {
+			"item": "empowtutorial:tutorial_item"
+		},
+		"/": {
+			"item": "minecraft:blaze_rod"
+		}
+	},
+	"result": {
+		"item": "empowtutorial:tutorial_sword",
+		"count": 1
+	}
+}
