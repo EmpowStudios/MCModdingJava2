@@ -21,10 +21,10 @@ public class ItemList {
 
 			unobtanium_ore, unobtainium_shard, obtainium_nugget, obtainium_ingot, obtainium_block,
 
-			tutorial_sword, tutorial_axe, tutorial_pickaxe, tutorial_hoe, tutorial_shovel, tutorial_armor_helmet,
+			blazing_sword, tutorial_axe, tutorial_pickaxe, tutorial_hoe, tutorial_shovel, tutorial_armor_helmet,
 			tutorial_armor_chestplate, tutorial_armor_leggings, tutorial_armor_boots,
 	
-			oil_bucket;
+			oil_bucket, concentrated_coal;
 	
 	/*
 	 * Once you named your sword please save file before moving on.

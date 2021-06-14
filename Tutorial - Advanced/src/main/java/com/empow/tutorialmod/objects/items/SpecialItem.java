@@ -40,10 +40,10 @@ public class SpecialItem extends SwordItem{
 		super.appendHoverText(stack, world, tooltip, flagIn);
 //		tooltip.add(new StringTextComponent("Test"));
 		if(InputMappings.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), GLFW.GLFW_KEY_LEFT_CONTROL)) {
-			tooltip.add(new StringTextComponent("Advanced Tooltip"));
+			tooltip.add(new StringTextComponent("Sends entities flying while set on fire... Just like Blazemen!"));
 		}
 		else {
-			tooltip.add(new TranslationTextComponent("tooltip.empow_tutorial.hold_shift"));
+			tooltip.add(new TranslationTextComponent("tooltip.empowtutorial.hold_shift"));
 		}
 	}
 	
@@ -52,7 +52,7 @@ public class SpecialItem extends SwordItem{
 		//new EffectInstance(effect, ticks, level)
 		if(entity instanceof MobEntity) {
 			entity.setSecondsOnFire(5);
-			player.addEffect(new EffectInstance(Effects.GLOWING, 100, 5));
+			//player.addEffect(new EffectInstance(Effects.GLOWING, 200, 5));
 			((MobEntity) entity).addEffect(new EffectInstance(Effects.LEVITATION, 100, 2));
 		}
 		return super.onLeftClickEntity(stack, player, entity);

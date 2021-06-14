@@ -6,6 +6,6 @@
 	"item.empowtutorial.obtainium_ingot": "Obtainium Ingot",
 	"block.empowtutorial.obtainium_block": "Obtainium Block",
 	"item.empowtutorial.unobtainium_shard": "Unobtainium Shard",
-	"item.empowtutorial.tutorial_sword": "Blazing Sword",
-	"tooltip.special_item.hold_shift": "Hold \u0047eShift \u00477 for More Information"
+	"item.empowtutorial.blazing_sword": "Blazing Sword",
+	"tooltip.empowtutorial.hold_shift": "Hold \u00A7eLeft Ctrl \u00A77 for More Information"
 }

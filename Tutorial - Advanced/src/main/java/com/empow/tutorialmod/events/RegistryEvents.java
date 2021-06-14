@@ -14,6 +14,7 @@ import com.empow.tutorialmod.objects.blocks.CustomOreBlock;
 import com.empow.tutorialmod.objects.fluids.FluidOil;
 import com.empow.tutorialmod.objects.fluids.FluidOil.Flowing;
 import com.empow.tutorialmod.objects.fluids.FluidOil.Source;
+import com.empow.tutorialmod.objects.items.CustomFuelItem;
 import com.empow.tutorialmod.objects.items.SpecialItem;
 
 import net.minecraft.block.Block;
@@ -91,10 +92,12 @@ public class RegistryEvents {
 						new Item.Properties().tab(ItemGroup.TAB_DECORATIONS))
 								.setRegistryName(BlockList.obtainium_block.getRegistryName()),
 
-				ItemList.tutorial_sword = new SpecialItem(ToolList.EXAMPLE_SWORD, 5, -1.4f,
-						new Item.Properties().tab(ItemGroup.TAB_COMBAT)).setRegistryName(location("tutorial_sword")),
-				
-				
+				ItemList.blazing_sword = new SpecialItem(ToolList.EXAMPLE_SWORD, 5, -1.4f,
+						new Item.Properties().tab(ItemGroup.TAB_COMBAT)).setRegistryName(location("blazing_sword")),
+
+				ItemList.concentrated_coal = new CustomFuelItem(new Item.Properties().tab(ItemGroup.TAB_MISC))
+						.setRegistryName(location("concentrated_coal")),
+
 				ItemList.tutorial_axe = new AxeItem(ToolList.EXAMPLE_TOOL, 6, -2.5f,
 						new Item.Properties().tab(ItemGroup.TAB_TOOLS).addToolType(ToolType.AXE, 4))
 								.setRegistryName(location("tutorial_axe")),
